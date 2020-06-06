@@ -1,0 +1,69 @@
+.restaurant-list-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    flex-direction: column;
+}
+
+.restaurant-list-wrapper table{
+    border-collapse: collapse;
+    width:70vw;
+}
+
+.restaurant-list-wrapper table th{
+    padding: 8px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+.restaurant-list-wrapper table td{
+    padding:8px;
+    border: 1px solid rgba(0,0,0,0.3);
+}
+
+.restaurant-list-wrapper .footer{
+    display: flex;
+    flex-direction: column;
+    width:70vw;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.restaurant-list-wrapper .footer .footer-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.restaurant-list-wrapper .footer .footer-button{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+}
+
+.restaurant-list-wrapper .footer .footer-button .prev{
+    justify-self: start;
+}
+
+.restaurant-list-wrapper .footer .footer-button .next{
+    align-self: end;
+}
+
+
+
+.restaurant-list-wrapper .footer button{
+    border-radius: 5px;
+    background-color:#0073D1;
+    color: white;
+    margin-top: 8px;
+    padding:12px;
+    font-size: 16px;
+}
+
+@media (max-width: 425px){
+    .restaurant-list-wrapper{
+        font-size: 10px;
+    }
+    .restaurant-list-wrapper table{
+        width:90vw;
+    }
+}
